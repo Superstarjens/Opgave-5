@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+      /*Money chance*/
+    #define 10D 10;
+
+    int 10_dollars (int d);
+int main(void)
+{
+	int d;
+	printf("Enter a amount of Dollars: ");
+	scanf("%d"&d);
+
+	printf("the amount %d is %d, 10 dollars, %d 20 dollars, %d 50 dollars and %d 100 dollars: ", d, 10_dollars, 20_dollars, 50_dollars, 100_dollars);
+
+	return 0;
+}
+      /*10 dollars exchange*/
+int 10_dollars (int d);
+    {
+    	10_dollars=*d%10
+    	return 10_dollars
+    }
