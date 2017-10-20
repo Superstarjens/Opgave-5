@@ -1,0 +1,46 @@
+   #include <stdio.h>
+
+    int 10_dollars (int d);
+    int 20_dollars(int d);
+    int 50_dollars(int d);
+    int 100_dollars(int d);
+
+    int main(void)
+    {
+    int dollar;
+    printf("Enter a amount of Dollars: ");
+    scanf("%d"&dollar);
+
+    printf("the amount %d is %d, 10 dollars, %d 20 dollars, %d 50 dollars and %d 100 dollars: ",
+            dollar, *10_dollars, *20_dollars, *50_dollars, *100_dollars);
+
+    return 0;
+    }
+      /*10 dollars exchange*/
+    int &10_dollars (int d)
+    {
+        int 10_dollars;
+        10_dollars= *dollar % 10
+        return 10_dollars;
+    }
+      /*20 dollars exchange*/
+    int &20_dollars(int d)
+    {
+        int 20_dollars;
+        20_dollars= *dollar % 20
+        return 20_dollars;
+    }
+      /*50 dollar exchanges*/
+    int &50_dollars(int d)
+    {
+        int 50_dollars;
+        50_dollars= *dollar % 50
+        return 50_dollars;
+    }
+    /*100 dollars exchange*/
+    int &100_dollars(int d)
+    {
+        int 100_dollars;
+        100_dollars= *dollar % 100
+        return 100_dollars;
+    }
